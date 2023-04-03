@@ -1,0 +1,9 @@
+  <?xml version="1.0">
+<robot name="hobo" xmlns:xacro="http://www.ros.org/wiki/xacro">
+ <gazebo>
+ <plugin filename
+ </gazebo>
+  <!-- hokuyo -->
+  
+  
+  </robot>

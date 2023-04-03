@@ -1,0 +1,8 @@
+prefix=/home/santhosh/turtlebot3/turtle3_ws/devel
+
+Name: random_simulates
+Description: Description of random_simulates
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

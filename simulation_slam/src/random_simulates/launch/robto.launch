@@ -1,0 +1,6 @@
+<launch>
+<param name="robot_description" textfile="$(find random_simulates)/urdf/robot2.urdf" />
+<include file="$(find gazebo_ros)/launch/empty_world.launch">
+</include>
+<node name="spawn_urdf1" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model hobo" />
+</launch>
