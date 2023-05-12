@@ -1,4 +1,4 @@
-prefix=/home/santhosh/turtlebot3/turtle3_ws/devel
+prefix=/home/asus/Documents/SLAM/simulation_slam/devel
 
 Name: random_simulates
 Description: Description of random_simulates

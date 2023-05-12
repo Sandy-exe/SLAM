@@ -1,8 +1,8 @@
-# Install script for directory: /home/santhosh/turtlebot3/turtle3_ws/src/random_simulates
+# Install script for directory: /home/asus/Documents/SLAM/simulation_slam/src/random_simulates
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/santhosh/turtlebot3/turtle3_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/asus/Documents/SLAM/simulation_slam/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/santhosh/turtlebot3/turtle3_ws/build/random_simulates/catkin_generated/installspace/random_simulates.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/asus/Documents/SLAM/simulation_slam/build/random_simulates/catkin_generated/installspace/random_simulates.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/random_simulates/cmake" TYPE FILE FILES
-    "/home/santhosh/turtlebot3/turtle3_ws/build/random_simulates/catkin_generated/installspace/random_simulatesConfig.cmake"
-    "/home/santhosh/turtlebot3/turtle3_ws/build/random_simulates/catkin_generated/installspace/random_simulatesConfig-version.cmake"
+    "/home/asus/Documents/SLAM/simulation_slam/build/random_simulates/catkin_generated/installspace/random_simulatesConfig.cmake"
+    "/home/asus/Documents/SLAM/simulation_slam/build/random_simulates/catkin_generated/installspace/random_simulatesConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/random_simulates" TYPE FILE FILES "/home/santhosh/turtlebot3/turtle3_ws/src/random_simulates/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/random_simulates" TYPE FILE FILES "/home/asus/Documents/SLAM/simulation_slam/src/random_simulates/package.xml")
 endif()
 

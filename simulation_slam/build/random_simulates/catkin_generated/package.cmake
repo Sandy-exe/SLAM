@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "random_simulates")
 set(random_simulates_VERSION "0.0.0")
-set(random_simulates_MAINTAINER "santhosh <santhosh@todo.todo>")
+set(random_simulates_MAINTAINER "asus <asus@todo.todo>")
 set(random_simulates_PACKAGE_FORMAT "2")
 set(random_simulates_BUILD_DEPENDS )
 set(random_simulates_BUILD_EXPORT_DEPENDS )
