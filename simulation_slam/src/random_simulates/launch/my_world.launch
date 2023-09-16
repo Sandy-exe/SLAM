@@ -3,9 +3,7 @@
 
 <param name="robot_description" command="cat $(find random_simulates)/urdf/robot2.urdf" />
 
-
 <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="1 0 0 0 0 0 1 map lidar_link 100"/>
-
 
 <arg name="world" default="$(find random_simulates)/worlds/turtie.world" />
 <include file="$(find gazebo_ros)/launch/empty_world.launch">
